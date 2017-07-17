@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Test Suite]">
+  <test name="Method Test Cases(failed)">
+    <classes>
+      <class name="com.crowdFireHomePageTest.HomePageTest">
+        <methods>
+          <include name="testPluseButton"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crowdFireHomePageTest.HomePageTest -->
+    </classes>
+  </test> <!-- Method Test Cases(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->

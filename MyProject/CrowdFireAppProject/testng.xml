@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1" >
+  <test name="Method Test Cases" >
+    <classes>
+       <class name="com.crowdFireHomePageTest.HomePageTest">
+        <methods>
+        <include name="testSearch" />
+        <include name="testFavoriteButton" />
+        <include name="testPluseButton" />
+      </methods>
+       </class>
+    </classes>
+  </test>
+</suite>
